@@ -2,6 +2,7 @@
 
 ## Master
 
+* FEATURE: add ZynOS GS1900 specific model support (@deajan)
 * FEATURE: add PurityOS model support (@elliot64)
 * FEATURE: add Ubiquiti Airfiber model support (@cchance27)
 * FEATURE: add Icotera support (@funzoneq)
@@ -26,6 +27,7 @@
 * MISC: add pgsql support, mechanized and net-tftp to Dockerfile
 * MISC: upgrade slop, net-telnet and rugged
 * MISC: extra secret scrubbing in comware model (@bengels00)
+* MISC: removed snmpd lines from linuxgeneric model
 
 ## 0.26.3
 
