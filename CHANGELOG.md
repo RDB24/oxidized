@@ -2,6 +2,23 @@
 
 ## Master
 
+* FEATURE: add Dell EMC Networking OS10 support (@mmisslin)
+* FEATURE: add Centec Networks CNOS (Fiberstore S5800/S5850) support via cnos model (@freddy36)
+* FEATURE: include transceiver information in EdgeCOS model (@freddy36)
+* FEATURE: add Telco Systems T-Marc 3306 support via telco model (@SkylerBlumer)
+* FEATURE: add enable support to ciscosmb (@deesel)
+* FEATURE: add Waystream iBOS model
+* BUGFIX: include the commands in the output in EdgeCOS model (@freddy36)
+* BUGFIX: update patterns for minor software version dependent differences in EdgeCOS model (@freddy36)
+* BUGFIX: better login modalities for telnet in aos7 (@optimuscream)
+* BUGFIX: better virtual domain detection in fortios (@agabellini)
+* BUGFIX: allow any max length for username/password in GcomBNPS (@freddy36)
+* BUGFIX: relax prompt requirements in ciscosmb (@Atroskelis)
+* MISC: more secret scrubbing in sonicos (@s-fu)
+* MISC: openssh key scrubbing as secret in fortios (@agabellini)
+* MISC: scrubs macsec key from Arista EOS (@krisamundson)
+* MISC: rubocop dependency now ~> 0.80.0
+
 ## 0.27.0
 
 * FEATURE: add automatic restart on failure for systemd (@deajan)
